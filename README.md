@@ -18,3 +18,13 @@ User: What is your name?
 Assistant: My name is Jarvis.
 
 This makes the assistant interactive and capable of handling both functional and conversational tasks.
+
+# Modules I used
+import speech_recognition as sr      # For converting speech to text (speech recognition)
+import win32com.client               # For text-to-speech functionality on Windows
+import webbrowser                    # For handling tasks like opening YouTube, Google, etc. in the browser
+import os                            # For interacting with the operating system (automating tasks, file operations)
+import datetime                      # For working with and displaying the current date & time
+
+
+
